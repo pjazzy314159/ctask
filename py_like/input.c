@@ -15,4 +15,5 @@ void input(char *prompt, char *feed, size_t feedSize) {
     } else {
         feed[0] = '\0';
     }
+    return;
 }
